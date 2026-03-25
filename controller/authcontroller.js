@@ -1,5 +1,3 @@
-
-
 const { pool } = require('../config/db');
 const { hashPassword, comparePassword } = require('../utils/hashHelper');
 const { generateToken } = require('../utils/jwtHelper');
